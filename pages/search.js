@@ -4,9 +4,9 @@ import Image from "next/image";
 import { Flex, Box, Text, Icon } from "@chakra-ui/react";
 import { BsFilter } from "react-icons/bs";
 
-import Property from "../components/Property";
-import SearchFilters from "../components/SearchFilters";
-import { baseUrl, fetchApi } from "../util/fetchApi";
+import Property from "../components/Property.jsx";
+import SearchFilters from "../components/SearchFilters.jsx";
+import { baseUrl, fetchApi } from "../util/fetchApi.js";
 import noresult from "../assets/noresult.svg";
 
 const Search = ({ properties }) => {
